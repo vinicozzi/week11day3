@@ -8,7 +8,7 @@ import ClimateStats from './ClimateStats';
 function Greenhouse() {
   // const Greenhouse = props => {
 // console.log(useTheme)
-const { themeName, setThemeName } = useTheme()
+const { themeName } = useTheme()
 console.log(themeName)
 
   return (
